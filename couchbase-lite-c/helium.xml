@@ -13,7 +13,7 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-c" revision="feature/CBL-3928" remote="couchbase">
+  <project name="couchbase-lite-c" revision="feature/CBL-3986" remote="couchbase">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="couchbase-lite-c-ee" revision="main" remote="couchbase-priv" groups="enterprise"/>

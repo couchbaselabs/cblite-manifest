@@ -1,8 +1,8 @@
 {
     "manifests": {
-         "couchbase-lite-c/CBL-3928.xml": {
+         "couchbase-lite-c/helium.xml": {
              "release": "3.1.0",
-             "release_name": "Couchbase Lite C - Helium, CBL-3928",
+             "release_name": "Couchbase Lite C - Helium Toy Build",
              "production": true,
              "interval": 90,
              "restricted": false,
