@@ -15,7 +15,7 @@
   <project name="couchbase-lite-core">
        <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="couchbase-lite-core-EE" revision="master" remote="couchbase-priv" groups="enterprise"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
