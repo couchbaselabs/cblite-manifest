@@ -1,8 +1,8 @@
 {
     "manifests": {
-         "couchbase-lite-c/helium.xml": {
+         "couchbase-lite-c/toy.xml": {
              "release": "3.1.0",
-             "release_name": "Couchbase Lite C - Helium Toy Build",
+             "release_name": "Couchbase Lite C - Toy Build",
              "production": true,
              "interval": 90,
              "restricted": false,
