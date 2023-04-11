@@ -7,21 +7,21 @@
   <remote name="snej" fetch="https://github.com/snej/"/>
   <remote name="google" fetch="https://github.com/google/"/>
 
-  <default remote="couchbase" revision="release/3.1"/>
+  <default remote="couchbase" revision="release/lithium"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-c" revision="test/CBL-4395" remote="couchbase">
+  <project name="couchbase-lite-c" remote="couchbase">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
-  <project name="couchbase-lite-c-ee" revision="main" remote="couchbase-priv" groups="enterprise"/>
+  <project name="couchbase-lite-c-ee" remote="couchbase-priv" groups="enterprise"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" revision="cbl-4395" path="couchbase-lite-c/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="fix/cbl-4410_optimization_db_locked" path="couchbase-lite-c/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core-EE" revision="7570126f0a7799a20dd3405eec31c328f31942ee" path="couchbase-lite-c-ee/couchbase-lite-core-EE" remote="couchbase-priv" groups="notdefault, enterprise"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -48,6 +48,6 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="product-texts" path="product-texts" revision="master"/>
   <project name="build" path="cbbuild" revision="master">
-    <annotation name="VERSION" value="3.1.0" keep="true"/>
+    <annotation name="VERSION" value="3.0.12" keep="true"/>
   </project>
 </manifest>
