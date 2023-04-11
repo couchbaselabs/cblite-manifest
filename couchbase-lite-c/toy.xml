@@ -13,9 +13,7 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-c" remote="couchbase">
-    <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
-  </project>
+  <project name="couchbase-lite-c" remote="couchbase"/>
   <project name="couchbase-lite-c-ee" remote="couchbase-priv" groups="enterprise"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -49,5 +47,6 @@
   <project name="product-texts" path="product-texts" revision="master"/>
   <project name="build" path="cbbuild" revision="master">
     <annotation name="VERSION" value="3.0.12" keep="true"/>
+    <copyfile src="scripts/jenkins/lite-c/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
 </manifest>
