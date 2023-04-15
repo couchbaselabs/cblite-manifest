@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
 
   <default remote="couchbase" revision="master"/>
@@ -11,6 +12,12 @@
 
   <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="feature/cbl-4217_no_litecore_submodule" />
   <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" revision="remove_core_ee_submodule" />
+
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Developer side build support                       -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <project name="litecore-download-script" path="couchbase-lite-net-ee/jenkins/litecore_tools" remote="couchbaselabs" revision="main" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
