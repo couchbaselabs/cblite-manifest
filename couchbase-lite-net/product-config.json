@@ -1,8 +1,8 @@
 {
     "manifests": {
-         "couchbase-lite-c/toy.xml": {
-             "release": "3.0.12",
-             "release_name": "Couchbase Lite C - Toy Build",
+         "couchbase-lite-net/toy.xml": {
+             "release": "3.2.0",
+             "release_name": "Couchbase Lite .NET - Toy Build",
              "production": true,
              "interval": 90,
              "restricted": false,
