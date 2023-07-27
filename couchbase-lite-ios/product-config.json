@@ -1,0 +1,14 @@
+{
+    "manifests": {
+         "couchbase-lite-ios/toy.xml": {
+             "release": "3.0.12.1",
+             "release_name": "Couchbase Lite iOS - Toy Build",
+             "production": true,
+             "interval": 90,
+             "restricted": false,
+             "start_build": 1,
+             "keep_git": true,
+             "trigger_blackduck": true
+         }
+    }
+}
