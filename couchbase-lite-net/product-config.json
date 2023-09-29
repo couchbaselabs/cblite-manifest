@@ -1,8 +1,7 @@
 {
     "manifests": {
          "couchbase-lite-net/toy-3.0.14-vf001.xml": {
-             "release": "3.0.14",
-             "release_name": "Couchbase Lite .NET - Toy Build",
+             "release_name": "Couchbase Lite .NET - VF 3.0.14.1",
              "production": true,
              "interval": 90,
              "restricted": false,

@@ -45,6 +45,6 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="product-texts" revision="ec09296ae7979a7bf5ca80c25842afca45e0ec99" upstream="master" dest-branch="master" />
   <project name="build" path="cbbuild" revision="5547da1aeb276479ba3adc9cd25bf9795640d976">
-    <annotation name="VERSION" value="3.0.14-vf001" keep="true"/>
+    <annotation name="VERSION" value="3.0.14.1" keep="true"/>
   </project>
 </manifest>
