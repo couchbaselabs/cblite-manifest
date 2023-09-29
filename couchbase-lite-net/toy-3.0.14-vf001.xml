@@ -13,8 +13,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="7a8cceaf86939973f277b7c482fe3980dcebeeb3" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="3727453ba710a445aac1281e236b86fa8571941e"/>
+  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="0d5a285cc36307a6d7793b5b82463c87c7bfc343" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="e96b92b2aa3ab645a791423e8197f8df3a0ea506"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
