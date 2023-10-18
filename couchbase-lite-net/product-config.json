@@ -8,6 +8,15 @@
              "start_build": 1,
              "keep_git": true,
              "trigger_blackduck": true
-         }
+         },
+         "couchbase-lite-net/toy-vv.xml": {
+            "release_name": "Couchbase Lite .NET - 3.2.0 - Version Vector",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true
+        }
     }
 }
