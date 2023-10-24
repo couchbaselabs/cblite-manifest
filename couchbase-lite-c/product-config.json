@@ -17,6 +17,15 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true
+        },
+        "couchbase-lite-c/toy-3.0.15.xml": {
+            "release_name": "Couchbase Lite C - 3.0.15 Toy Build",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true
         }
     }
 }
