@@ -1,0 +1,16 @@
+{
+    "manifests": {
+        "couchbase-lite-java/toy-vv.xml": {
+            "release_name": "Couchbase Lite Java - Beryllium 3.2.0 w/Version Vectors",
+            "production": true,
+            "interval": 40320,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": false,
+            "do-build": true,
+            "jenkins_job": "couchbase-lite-java"
+        }
+    }
+}
+
