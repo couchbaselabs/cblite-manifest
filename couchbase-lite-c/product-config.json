@@ -26,6 +26,15 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true
+        },
+        "couchbase-lite-c/toy-3.0.16-CBSE-15924.xml": {
+            "release_name": "Couchbase Lite C - 3.0.16 CBSE-15924 Toy Build",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true
         }
     }
 }
