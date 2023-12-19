@@ -26,6 +26,16 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true
+        },
+        "couchbase-lite-net/toy.xml": {
+            "release_name": "Couchbase Lite .NET - 3.2.0 - Toy",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do_build": false,
+            "trigger_blackduck": false
         }
     }
 }
