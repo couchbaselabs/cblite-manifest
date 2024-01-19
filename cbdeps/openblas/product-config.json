@@ -1,0 +1,21 @@
+{
+    "manifests": {
+        "cbdeps/openblas/master.xml": {
+            "production": true,
+            "restricted": false,
+            "start_build": 1,
+            "jenkins_job": "cbdeps-build",
+            "do-build": false,
+            "keep_git": true,
+            "platforms": [
+                "linux:cross-android"
+            ],
+            "archs": [
+                "x86_64:cross-armv7a",
+                "x86_64:cross-aarch64",
+                "x86_64:cross-x86_64",
+                "x86_64:cross-i686"
+            ]
+        }
+    }
+}
