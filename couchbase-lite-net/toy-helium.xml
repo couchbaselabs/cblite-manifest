@@ -13,7 +13,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" groups="enterprise,notdefault" />
+  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" groups="enterprise,notdefault" revision="fix/fleece_dictIter_crash" />
   <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="fix/cbl-5357_dict_iterator" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
