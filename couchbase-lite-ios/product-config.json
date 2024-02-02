@@ -18,6 +18,15 @@
       "start_build": 1,
       "keep_git": true,
       "trigger_blackduck": true
+    },
+    "couchbase-lite-ios/3.1.4.1.xml": {
+      "release_name": "Couchbase Lite iOS 3.1.4.1",
+      "production": true,
+      "interval": 90,
+      "restricted": false,
+      "start_build": 1,
+      "keep_git": true,
+      "trigger_blackduck": true
     }
   }
 }
