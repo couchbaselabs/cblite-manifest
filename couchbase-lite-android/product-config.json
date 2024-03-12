@@ -1,5 +1,16 @@
 {
     "manifests": {
+        "couchbase-lite-android/CBSE-16470-VF.xml": {
+            "release_name": "Couchbase Lite Android - Helium 3.1.6-vf001 w/Safe ResultSet",
+            "production": true,
+            "interval": 40320,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": false,
+            "do-build": true,
+            "jenkins_job": "couchbase-lite-android"
+        },
         "couchbase-lite-android/CBSE-16247-VF.xml": {
             "release_name": "Couchbase Lite Android - Helium 3.1.5-vf001 w/FULL sync",
             "production": true,
