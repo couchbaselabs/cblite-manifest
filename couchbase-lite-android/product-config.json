@@ -1,7 +1,18 @@
 {
     "manifests": {
+        "couchbase-lite-android/CBSE-17033-VF.xml": {
+            "release_name": "Couchbase Lite Android - Helium 3.1.7-vf001",
+            "production": true,
+            "interval": 40320,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": false,
+            "do-build": true,
+            "jenkins_job": "couchbase-lite-android"
+        },
         "couchbase-lite-android/CBSE-16662-VF.xml": {
-            "release_name": "Couchbase Lite Android - Helium 3.1.6-vf00r21 wo/Observer Race",
+            "release_name": "Couchbase Lite Android - Helium 3.1.6-vf002 wo/Observer Race",
             "production": true,
             "interval": 40320,
             "restricted": false,
