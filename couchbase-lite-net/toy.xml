@@ -4,14 +4,14 @@
   <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
 
-  <default remote="couchbase" revision="master"/>
+  <default remote="couchbase" revision="release/3.2"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="packaging_rework" />
-  <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" revision="packaging_rework" />
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" />
+  <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" revision="fix/dispose_derive_bytes" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Developer side build support                       -->
