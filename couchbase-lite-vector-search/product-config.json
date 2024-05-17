@@ -1,0 +1,14 @@
+{
+    "manifests": {
+        "couchbase-lite-vector-search/toy.xml": {
+            "release_name": "Couchbase Lite Vector Search 1.0.0 - Toy",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do_build": false,
+            "trigger_blackduck": false
+        }
+    }
+}
