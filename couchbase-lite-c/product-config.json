@@ -35,6 +35,15 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true
+        },
+        "couchbase-lite-c/CBSE-17185-3.1.9-VF.1.xml": {
+            "release_name": "Couchbase Lite C - 3.1.9-VF.1 for CBSE-17185",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true
         }
     }
 }
