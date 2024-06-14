@@ -10,8 +10,8 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" />
-  <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" revision="fix/dispose_derive_bytes" />
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="feature/cbl-5749_lazy_index" />
+  <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" revision="feature/lazy_index" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Developer side build support                       -->
