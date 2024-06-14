@@ -9,7 +9,7 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="mobile-vector-search-net" path="mobile-vector-search-net" remote="couchbase-priv" />
+  <project name="mobile-vector-search-net" path="mobile-vector-search-net" remote="couchbase-priv" revision="update_native" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
