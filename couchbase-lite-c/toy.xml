@@ -13,7 +13,9 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-c" revision="fix/cross_compile" remote="couchbase"/>
+  <project name="couchbase-lite-c" revision="fix/cross_compile" remote="couchbase">
+    <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
+  </project>
   <project name="couchbase-lite-c-ee" remote="couchbase-priv" groups="enterprise"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
