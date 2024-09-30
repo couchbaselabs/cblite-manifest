@@ -45,6 +45,15 @@
             "keep_git": true,
             "trigger_blackduck": true
         },
+        "couchbase-lite-c/CBSE-18123.xml": {
+            "release_name": "Couchbase Lite C - 3.1.0 VF.1 for CBSE-18123",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true
+        },
         "couchbase-lite-c/CBSE-17341.xml": {
             "release_name": "Couchbase Lite C - 3.0.17-VF.1",
             "production": true,
