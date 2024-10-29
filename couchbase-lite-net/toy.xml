@@ -10,8 +10,8 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="feature/cbl-5749_lazy_index" />
-  <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" revision="feature/lazy_index" />
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="feature/cbl-6376_ios_background" />
+  <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Developer side build support                       -->
@@ -24,6 +24,6 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="product-texts" path="product-texts" revision="master"/>
   <project name="build" path="cbbuild" revision="master">
-    <annotation name="VERSION" value="3.2.0" keep="true"/>
+    <annotation name="VERSION" value="3.2.1" keep="true"/>
   </project>
 </manifest>
