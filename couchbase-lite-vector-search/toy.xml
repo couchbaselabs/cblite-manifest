@@ -10,7 +10,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned vector search project              -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mobile-vector-search" remote="couchbaselabs-priv" groups="notdefault,enterprise" revision="fix/aarch64-linux-noncross-build"/>
+  <project name="mobile-vector-search" remote="couchbaselabs-priv" groups="notdefault,enterprise" revision="fix/cbl-6406_static_libcxx"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
