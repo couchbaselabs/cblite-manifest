@@ -19,7 +19,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-mobile-tools" remote="couchbaselabs" path="edge-server/vendor/tools" revision="004bc47fb71914f81c798d462af6e04f23fc8c50" />
   <project name="couchbase-lite-core-EE" path="edge-server/vendor/tools/vendor/couchbase-lite-core-EE" remote="couchbase-priv" revision="feature/edge_server"/>
-  <project name="couchbase-lite-core" path="edge-server/vendor/tools/vendor/couchbase-lite-core" revision="a2a887c82744db1d09aac4084d4090d9398e7ff6"/>
+  <project name="couchbase-lite-core" path="edge-server/vendor/tools/vendor/couchbase-lite-core" revision="d325209caf2011412e2de0da7da9b52b2f3de4b0"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="edge-server/vendor/tools/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
