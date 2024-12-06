@@ -6,10 +6,7 @@
             "interval": 240,
             "restricted": false,
             "start_build": 1,
-            "keep_git": true,
-            "module_projects": [
-                "edge-server"
-            ]
+            "keep_git": true
        }
     }
 }
