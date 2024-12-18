@@ -1,7 +1,7 @@
 {
     "manifests": {
-        "couchbase-lite-java/toy.xml": {
-            "release_name": "Couchbase Lite Java - Toy",
+        "couchbase-lite-java-vector-search/toy.xml": {
+            "release_name": "Couchbase Lite Java VS Extensions - Toy",
             "production": true,
             "interval": 40320,
             "restricted": false,
@@ -9,7 +9,7 @@
             "keep_git": true,
             "trigger_blackduck": false,
             "do-build": true,
-            "jenkins_job": "couchbase-lite-java"
+            "jenkins_job": "couchbase-lite-java-vs"
         }
     }
 }
