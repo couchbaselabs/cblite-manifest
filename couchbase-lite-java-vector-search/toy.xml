@@ -15,7 +15,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned repository                         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project remote="couchbaselabs-priv" name="couchbase-lite-java-vector-search" path="cbl-vs" revision="d4dbf739afabe1d086673cb38102c11216244574"/>
+  <project remote="couchbaselabs-priv" name="couchbase-lite-java-vector-search" path="cbl-vs" revision="90283c95d108a0c74f1f0585a28937520f23318e"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase Licensing and Legal                      -->
