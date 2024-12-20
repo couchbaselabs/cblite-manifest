@@ -1,5 +1,16 @@
 {
     "manifests": {
+        "couchbase-lite-android/CBSE-18907-VF.xml": {
+            "release_name": "Couchbase Lite Android - Lithium 3.2.1-vf001",
+            "production": true,
+            "interval": 40320,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": false,
+            "do-build": true,
+            "jenkins_job": "couchbase-lite-android"
+        },
         "couchbase-lite-android/CBSE-17033-VF.xml": {
             "release_name": "Couchbase Lite Android - Helium 3.1.7-vf001",
             "production": true,
