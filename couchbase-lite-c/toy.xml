@@ -9,7 +9,7 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-c" revision="clang" remote="couchbase" sync-s="true">
+  <project name="couchbase-lite-c" revision="master" remote="couchbase" sync-s="true">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="couchbase-lite-c-ee" remote="couchbase-priv" groups="enterprise" sync-s="true"/>
