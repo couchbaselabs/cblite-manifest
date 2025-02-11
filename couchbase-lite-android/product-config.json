@@ -1,7 +1,7 @@
 {
     "manifests": {
-        "couchbase-lite-android/CBSE-19205-VF-2.xml": {
-            "release_name": "Couchbase Lite Android - Lithium 3.1.9-vf003",
+        "couchbase-lite-android/CBSE-19205-VF-3.xml": {
+            "release_name": "Couchbase Lite Android - Lithium 3.1.9-vf004",
             "production": true,
             "interval": 40320,
             "restricted": false,
