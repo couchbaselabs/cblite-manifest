@@ -8,7 +8,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-mobile-tools" remote="couchbaselabs" path="couchbase-mobile-tools" sync-s="true"/>
+  <project name="couchbase-mobile-tools" remote="couchbaselabs" path="couchbase-mobile-tools" revision="move-tool-support" sync-s="true"/>
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
