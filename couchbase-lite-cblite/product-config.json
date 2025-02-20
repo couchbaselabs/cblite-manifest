@@ -1,0 +1,13 @@
+{
+    "manifests": {
+        "couchbase-lite-cblite/toy.xml": {
+            "release_name": "cblite tool - toy",
+            "production": true,
+            "interval": 240,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do_build": false
+       }
+    }
+}
