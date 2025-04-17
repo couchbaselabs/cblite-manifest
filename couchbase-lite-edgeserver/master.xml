@@ -12,18 +12,18 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="edge-server" remote="couchbase-priv" path="edge-server" sync-s="true" />
+  <project name="edge-server" remote="couchbase-priv" path="edge-server" sync-s="true" revision="feature/cbl-6923_windows_support" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and tools      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core-EE" path="edge-server/vendor/tools/vendor/couchbase-lite-core-EE" remote="couchbase-priv" revision="feature/edge_server"/>
+  <project name="couchbase-lite-core-EE" path="edge-server/vendor/tools/vendor/couchbase-lite-core-EE" remote="couchbase-priv" revision="master" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild" revision="a8ba0a9d6058381edc320648cafaf696a611908c">
-    <annotation name="VERSION" value="1.0.0" keep="true"/>
+    <annotation name="VERSION" value="1.1.0" keep="true"/>
   </project>
 
   # Want these explicitly master, regardless of the default
