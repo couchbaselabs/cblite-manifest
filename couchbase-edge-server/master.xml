@@ -17,7 +17,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and tools      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core-EE" path="edge-server/vendor/tools/vendor/couchbase-lite-core-EE" remote="couchbase-priv" revision="master" />
+  <project name="couchbase-lite-core-EE" path="edge-server/vendor/couchbase-lite-core-EE" remote="couchbase-priv" revision="master" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
