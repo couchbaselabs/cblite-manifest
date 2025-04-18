@@ -8,6 +8,15 @@
              "start_build": 1,
              "keep_git": true,
              "trigger_blackduck": true
-         }
+         },
+         "couchbase-lite-core/toy-p2p.xml": {
+            "release_name": "Couchbase Lite Core - Toy -P2P",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": true
+        }
     }
 }
