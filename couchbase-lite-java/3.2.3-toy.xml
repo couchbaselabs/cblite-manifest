@@ -10,21 +10,21 @@
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild" groups="notdefault" revision="fa5df77677945a629aeb82aeaa3d43218df2a88d">
-    <annotation name="VERSION" value="4.0.0" keep="true"/>
+    <annotation name="VERSION" value="3.2.3" keep="true"/>
   </project>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language repositories         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java" revision="55f92cb28946b637f75a0394b1331be99ca00f4e"/>
-  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="0122495fa0a0fc63d4b317922b8e21217a8b00ce"/>
-  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="ac81fc131a2c4eaa3f0c34b8a5075d309b24e2bd"/>
-  <project remote="couchbaselabs" name="couchbase-lite-java-tools" path="cbl-java/etc" revision="6eb366a8602c7bdb3284da0437857e4994c4147d"/>
+  <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java" revision="2a593150ccca283029b018bbb628444270fc723c"/>
+  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="67da4f6b305c365b00c2e14b510688b5360d12bb"/>
+  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="31610a971a4b5928f18f735a969cdb4bc6471b8f"/>
+  <project remote="couchbaselabs" name="couchbase-lite-java-tools" path="cbl-java/etc" revision="eea921c668186e4d3ea20fb0ced1f8e7d50fceb7"/>
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core Tools          -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project remote="couchbaselabs" name="litecore-download-script" path="cbl-java/core_tools" revision="a25b27b50baed58a7b05f8b8151a3269b5007044"/>
+  <project remote="couchbaselabs" name="litecore-download-script" path="cbl-java/core_tools" revision="a71a5a9f2bb808cb2c45a82fe39fd5d4c43e5597"/>
  
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase Licensing and Legal                      -->

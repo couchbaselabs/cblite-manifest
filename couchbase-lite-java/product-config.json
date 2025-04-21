@@ -1,7 +1,18 @@
 {
     "manifests": {
-        "couchbase-lite-java/toy.xml": {
-            "release_name": "Couchbase Lite Java - Toy",
+        "couchbase-lite-java/3.2.3-toy.xml": {
+            "release_name": "Couchbase Lite Java - 3.2.3.toy",
+            "production": true,
+            "interval": 40320,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": false,
+            "do-build": true,
+            "jenkins_job": "couchbase-lite-java"
+        },
+        "couchbase-lite-java/3.2.2-toy.xml": {
+            "release_name": "Couchbase Lite Java - 3.2.2.toy",
             "production": true,
             "interval": 40320,
             "restricted": false,
