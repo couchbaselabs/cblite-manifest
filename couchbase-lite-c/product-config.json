@@ -9,6 +9,15 @@
              "keep_git": true,
              "trigger_blackduck": true
          },
+         "couchbase-lite-c/toy-build-exports.xml": {
+             "release_name": "Couchbase Lite C - Toy Build Exports Temp",
+             "production": true,
+             "interval": 90,
+             "restricted": false,
+             "start_build": 1,
+             "keep_git": true,
+             "trigger_blackduck": true
+         },
          "couchbase-lite-c/toy-vv.xml": {
             "release_name": "Couchbase Lite C - Version Vector Toy Build",
             "production": true,
