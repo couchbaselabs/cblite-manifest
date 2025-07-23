@@ -39,7 +39,7 @@
       "trigger_blackduck": true
     },
     "couchbase-lite-ios/toy-3.3.0.xml": {
-      "release_name": "Couchbase Lite iOS 3.3.0.1",
+      "release_name": "Couchbase Lite iOS 3.3.0 Toy Build Multipeer",
       "production": true,
       "interval": 90,
       "restricted": false,
