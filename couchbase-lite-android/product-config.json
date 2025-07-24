@@ -120,6 +120,17 @@
             "trigger_blackduck": false,
             "do-build": true,
             "jenkins_job": "couchbase-lite-android"
+        },
+        "couchbase-lite-android/toy.xml": {
+            "release_name": "Couchbase Lite Android Generic Toy",
+            "production": true,
+            "interval": 40320,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "trigger_blackduck": false,
+            "do-build": true,
+            "jenkins_job": "couchbase-lite-android"
         }
     }
 }
