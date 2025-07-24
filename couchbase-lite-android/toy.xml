@@ -16,7 +16,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language repositories         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java" revision="fix/createPeerInfo_bad_args" sync-s="true" />
+  <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java" revision="fix/updated_jni_createPeerInfo" sync-s="true" />
  
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase Licensing and Legal                      -->
