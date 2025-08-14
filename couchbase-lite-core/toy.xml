@@ -3,13 +3,13 @@
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
 
-  <default remote="couchbase" revision="master"/>
+  <default remote="couchbase" revision="release/3.3"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core" sync-s="true" />
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" groups="notdefault,enterprise" revision="fix/servicereg-CBL-7224" sync-s="true" />
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" groups="notdefault,enterprise" revision="fix/server-stop" sync-s="true" />
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
