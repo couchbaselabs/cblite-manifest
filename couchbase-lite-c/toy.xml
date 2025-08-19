@@ -12,7 +12,7 @@
   <project name="couchbase-lite-c" remote="couchbase" sync-s="true">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
-  <project name="couchbase-lite-c-ee" remote="couchbase-priv"  revision="main" groups="enterprise" sync-s="true"/>
+  <project name="couchbase-lite-c-ee" remote="couchbase-priv"  groups="enterprise" sync-s="true"/>
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
