@@ -13,7 +13,7 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-c" revision="VF/CBSE-18123" remote="couchbase">
+  <project name="couchbase-lite-c" revision="vf/CBSE-18123" remote="couchbase">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="couchbase-lite-c-ee" remote="couchbase-priv" groups="enterprise"/>

@@ -71,6 +71,15 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": false
-        }
+        },
+        "couchbase-lite-c/toy-vf-3.2.4-android-deb-info.xml": {
+             "release_name": "Couchbase Lite C - 3.2.4 VF android debug info",
+             "production": true,
+             "interval": 90,
+             "restricted": false,
+             "start_build": 1,
+             "keep_git": true,
+             "trigger_blackduck": true
+         }
     }
 }
