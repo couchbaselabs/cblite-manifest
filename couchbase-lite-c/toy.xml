@@ -3,7 +3,7 @@
   <remote name="couchbase" fetch="https://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
 
-  <default remote="couchbase" revision="CBL-7067"/>
+  <default remote="couchbase" revision="CBL-7431"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
@@ -12,7 +12,7 @@
   <project name="couchbase-lite-c" remote="couchbase" sync-s="true">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
-  <project name="couchbase-lite-c-ee" remote="couchbase-priv"  groups="enterprise" sync-s="true"/>
+  <project name="couchbase-lite-c-ee" remote="couchbase-priv" revision="main" groups="enterprise" sync-s="true"/>
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
