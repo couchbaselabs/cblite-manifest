@@ -4,13 +4,13 @@
   <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
 
-  <default remote="couchbase" revision="release/3.2"/>
+  <default remote="couchbase" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="feature/cbl-6376_ios_background" />
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="fix/reachability" />
   <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -24,6 +24,6 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="product-texts" path="product-texts" revision="master"/>
   <project name="build" path="cbbuild" revision="master">
-    <annotation name="VERSION" value="3.2.1" keep="true"/>
+    <annotation name="VERSION" value="4.0.2" keep="true"/>
   </project>
 </manifest>
