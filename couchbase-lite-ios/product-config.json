@@ -1,7 +1,6 @@
 {
   "manifests": {
     "couchbase-lite-ios/toy.xml": {
-      "release": "3.3.0",
       "release_name": "Couchbase Lite iOS - Toy Build",
       "production": true,
       "interval": 90,
@@ -11,7 +10,6 @@
       "trigger_blackduck": true
     },
     "couchbase-lite-ios/toy-3.2.3.xml": {
-      "release": "3.2.3",
       "release_name": "Couchbase Lite iOS - Swift Enhacement Build",
       "production": true,
       "interval": 90,
