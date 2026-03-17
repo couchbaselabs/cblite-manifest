@@ -10,7 +10,7 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="fix/cbl-8010_utf8_string" />
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="utf8_string_diagnostics" />
   <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
