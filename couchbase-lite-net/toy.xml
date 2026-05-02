@@ -10,8 +10,8 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="asan_debug" />
-  <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" revision="asan_debug" />
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="net10" />
+  <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" revision="net10" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Developer side build support                       -->
@@ -24,6 +24,6 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="product-texts" path="product-texts" revision="master"/>
   <project name="build" path="cbbuild" revision="master">
-    <annotation name="VERSION" value="4.0.3" keep="true"/>
+    <annotation name="VERSION" value="4.1.0" keep="true"/>
   </project>
 </manifest>
