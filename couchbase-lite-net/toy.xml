@@ -10,7 +10,7 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" />
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="feature/dotnetenv" />
   <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" revision="feature/dotnetenv" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
