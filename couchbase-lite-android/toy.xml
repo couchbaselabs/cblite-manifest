@@ -16,7 +16,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language repositories         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java" revision="CBL-8451" sync-s="true" />
+  <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java" revision="CBL-8451-TOY" sync-s="true" />
  
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase Licensing and Legal                      -->
