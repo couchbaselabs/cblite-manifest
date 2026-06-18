@@ -8,8 +8,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" sync-s="true" revision="fix/dotnet_stack_trace" />
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" groups="notdefault,enterprise" sync-s="true" />
+  <project name="couchbase-lite-core" sync-s="true" revision="release/4.1" />
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="fix/tlscodec-errors-CBL-8485" groups="notdefault,enterprise" sync-s="true" />
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
