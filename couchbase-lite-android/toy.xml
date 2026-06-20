@@ -21,5 +21,5 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase Licensing and Legal                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="product-texts" path="cbl-java/legal" />
+  <project name="product-texts" path="cbl-java/legal" revision="master" />
 </manifest>
