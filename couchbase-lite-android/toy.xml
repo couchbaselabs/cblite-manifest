@@ -16,7 +16,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language repositories         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java" revision="fix/8494-toy" sync-s="true" />
+  <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java" revision="fix/tls_timeout" sync-s="true" />
  
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase Licensing and Legal                      -->
