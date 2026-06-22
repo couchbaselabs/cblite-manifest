@@ -8,8 +8,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repositories               -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="release/4.1" groups="enterprise,notdefault" sync-s="true"/>
-  <project name="couchbase-lite-ios" remote="couchbase" revision="CBL-8494-TOY" sync-s="true"/>
+  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="CBL-8496" groups="enterprise,notdefault" sync-s="true"/>
+  <project name="couchbase-lite-ios" remote="couchbase" revision="CBL-8496" sync-s="true"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
