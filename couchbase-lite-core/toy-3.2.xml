@@ -11,7 +11,7 @@
   <project name="couchbase-lite-core" revision="android_asan" sync-s="true">
     <copyfile src="jenkins/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" groups="notdefault,enterprise" sync-s="true" />
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" groups="notdefault,enterprise" revision="3.2.4-asan" sync-s="true" />
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
