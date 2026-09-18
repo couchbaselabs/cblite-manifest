@@ -8,14 +8,14 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repositories               -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="CBL-8496" groups="enterprise,notdefault" sync-s="true"/>
-  <project name="couchbase-lite-ios" remote="couchbase" revision="CBL-8496" sync-s="true"/>
+  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="release/4.1" groups="enterprise,notdefault" sync-s="true"/>
+  <project name="couchbase-lite-ios" remote="couchbase" revision="vf/4.1.3-enable-warn-on-errors" sync-s="true"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="product-texts" revision="master"/>
   <project name="build" revision="844e2484067053d7af88e706a814766265bf03df">
-    <annotation name="VERSION" value="4.1.0" keep="true"/>
+    <annotation name="VERSION" value="4.1.3" keep="true"/>
   </project>
 </manifest>
