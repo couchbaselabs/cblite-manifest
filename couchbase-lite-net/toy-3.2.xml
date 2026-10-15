@@ -10,8 +10,8 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" revision="32_build_fixes" />
-  <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" />
+  <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net" />
+  <project name="couchbase-lite-net-ee" remote="couchbase-priv" groups="enterprise" revision="32_build_fixes" />
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Developer side build support                       -->
